@@ -1,4 +1,4 @@
-const CACHE_NAME = 'carpeta-virtual-v5'; // <-- Cambia a v4
+const CACHE_NAME = 'carpeta-virtual-v1'; // <-- Cambia a v4
 
 const ARCHIVOS_OFFLINE = [
   './',
@@ -63,3 +63,4 @@ self.addEventListener('fetch', event => {
       .catch(() => caches.match(event.request))
   );
 });
+
